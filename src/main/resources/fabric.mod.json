@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vanilla-enhanced",
+	"version": "${version}",
+	"name": "Vanilla Enhanced",
+	"description": "A mod that aims to enhance the vanilla experience without destroying it",
+	"authors": [
+		"Arhi Games"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/vanilla-enhanced/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.arhi.vanilla.enhanced.VanillaEnhanced"
+		],
+		"fabric-datagen": [
+			"com.arhi.vanilla.enhanced.VanillaEnhancedDataGenerator"
+		],
+		"client": [
+			"com.arhi.vanilla.enhanced.VanillaEnhancedClient"
+		]
+	},
+	"mixins": [
+		"vanilla-enhanced.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
