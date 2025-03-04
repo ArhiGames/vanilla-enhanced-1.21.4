@@ -36,6 +36,13 @@ public class ModRecipeProvider extends FabricRecipeProvider
                 offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.ORANGE_STAINED_GLASS, ModItems.ORANGE_STAINED_GLASS_SHARD);
                 offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.YELLOW_STAINED_GLASS, ModItems.YELLOW_STAINED_GLASS_SHARD);
                 offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.LIME_STAINED_GLASS, ModItems.LIME_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.GREEN_STAINED_GLASS, ModItems.GREEN_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.CYAN_STAINED_GLASS, ModItems.CYAN_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.LIGHT_BLUE_STAINED_GLASS, ModItems.LIGHT_BLUE_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.BLUE_STAINED_GLASS, ModItems.BLUE_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.PURPLE_STAINED_GLASS, ModItems.PURPLE_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.MAGENTA_STAINED_GLASS, ModItems.MAGENTA_STAINED_GLASS_SHARD);
+                offer2x2CompactingRecipe(RecipeCategory.BUILDING_BLOCKS, Items.PINK_STAINED_GLASS, ModItems.PINK_STAINED_GLASS_SHARD);
             }
         };
     }

@@ -33,5 +33,12 @@ public class ModModelProvider extends FabricModelProvider
         itemModelGenerator.register(ModItems.ORANGE_STAINED_GLASS_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.YELLOW_STAINED_GLASS_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.LIME_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GREEN_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CYAN_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LIGHT_BLUE_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUE_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PURPLE_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGENTA_STAINED_GLASS_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PINK_STAINED_GLASS_SHARD, Models.GENERATED);
     }
 }

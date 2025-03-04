@@ -9,6 +9,13 @@
   "item.vanilla-enhanced.orange_stained_glass_shard": "Orange stained glass shard",
   "item.vanilla-enhanced.yellow_stained_glass_shard": "Yellow stained glass shard",
   "item.vanilla-enhanced.lime_stained_glass_shard": "Lime stained glass shard",
+  "item.vanilla-enhanced.green_stained_glass_shard": "Green stained glass shard",
+  "item.vanilla-enhanced.cyan_stained_glass_shard": "Cyan stained glass shard",
+  "item.vanilla-enhanced.light_blue_stained_glass_shard": "Light blue stained glass shard",
+  "item.vanilla-enhanced.blue_stained_glass_shard": "Blue stained glass shard",
+  "item.vanilla-enhanced.purple_stained_glass_shard": "Purple stained glass shard",
+  "item.vanilla-enhanced.magenta_stained_glass_shard": "Magenta stained glass shard",
+  "item.vanilla-enhanced.pink_stained_glass_shard": "Pink stained glass shard",
 
   "itemgroup.quality_of_life": "Quality of life"
 }

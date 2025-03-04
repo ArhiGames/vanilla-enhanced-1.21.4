@@ -22,6 +22,13 @@ public class ModLootTableModifiers
     private static final Identifier ORANGE_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/orange_stained_glass");
     private static final Identifier YELLOW_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/yellow_stained_glass");
     private static final Identifier LIME_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/lime_stained_glass");
+    private static final Identifier GREEN_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/green_stained_glass");
+    private static final Identifier CYAN_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/cyan_stained_glass");
+    private static final Identifier LIGHT_BLUE_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/light_blue_stained_glass");
+    private static final Identifier BLUE_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/blue_stained_glass");
+    private static final Identifier PURPLE_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/purple_stained_glass");
+    private static final Identifier MAGENTA_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/magenta_stained_glass");
+    private static final Identifier PINK_STAINED_BLOCK_ID = Identifier.of("minecraft", "blocks/pink_stained_glass");
 
     public static void modifyLootTables()
     {
@@ -62,6 +69,34 @@ public class ModLootTableModifiers
             if (LIME_STAINED_BLOCK_ID.equals(key.getValue()))
             {
                 tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.LIME_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (GREEN_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.GREEN_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (CYAN_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.CYAN_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (LIGHT_BLUE_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.LIGHT_BLUE_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (BLUE_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.BLUE_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (PURPLE_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.PURPLE_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (MAGENTA_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.MAGENTA_STAINED_GLASS_SHARD), 0.f, 4.f).build());
+            }
+            if (PINK_STAINED_BLOCK_ID.equals(key.getValue()))
+            {
+                tableBuilder.pool(createLootPoolBuilder(1, 1.f, ItemEntry.builder(ModItems.PINK_STAINED_GLASS_SHARD), 0.f, 4.f).build());
             }
         });
     }

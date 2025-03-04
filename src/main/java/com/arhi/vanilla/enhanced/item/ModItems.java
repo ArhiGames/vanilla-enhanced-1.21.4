@@ -23,6 +23,7 @@ public class ModItems
             .displayName(Text.translatable("itemgroup.quality_of_life"))
             .build();
 
+    // GLASS SHARDS
     public static final Item GLASS_SHARD = registerItem("glass_shard", Item::new, new Item.Settings());
     public static final Item TINTED_GLASS_SHARD = registerItem("tinted_glass_shard", Item::new, new Item.Settings());
     public static final Item WHITE_STAINED_GLASS_SHARD = registerItem("white_stained_glass_shard", Item::new, new Item.Settings());
@@ -33,6 +34,13 @@ public class ModItems
     public static final Item ORANGE_STAINED_GLASS_SHARD = registerItem("orange_stained_glass_shard", Item::new, new Item.Settings());
     public static final Item YELLOW_STAINED_GLASS_SHARD = registerItem("yellow_stained_glass_shard", Item::new, new Item.Settings());
     public static final Item LIME_STAINED_GLASS_SHARD = registerItem("lime_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item GREEN_STAINED_GLASS_SHARD = registerItem("green_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item CYAN_STAINED_GLASS_SHARD = registerItem("cyan_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item LIGHT_BLUE_STAINED_GLASS_SHARD = registerItem("light_blue_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item BLUE_STAINED_GLASS_SHARD = registerItem("blue_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item PURPLE_STAINED_GLASS_SHARD = registerItem("purple_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item MAGENTA_STAINED_GLASS_SHARD = registerItem("magenta_stained_glass_shard", Item::new, new Item.Settings());
+    public static final Item PINK_STAINED_GLASS_SHARD = registerItem("pink_stained_glass_shard", Item::new, new Item.Settings());
 
     private static Item registerItem(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings)
     {
@@ -61,6 +69,13 @@ public class ModItems
             fabricItemGroupEntries.add(ORANGE_STAINED_GLASS_SHARD);
             fabricItemGroupEntries.add(YELLOW_STAINED_GLASS_SHARD);
             fabricItemGroupEntries.add(LIME_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(GREEN_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(CYAN_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(LIGHT_BLUE_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(BLUE_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(PURPLE_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(MAGENTA_STAINED_GLASS_SHARD);
+            fabricItemGroupEntries.add(PINK_STAINED_GLASS_SHARD);
         });
     }
 }
